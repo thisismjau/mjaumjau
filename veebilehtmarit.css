@@ -71,10 +71,11 @@ placeholder {
 	position: absolute;
 	bottom: 0;
 	left: 15vw;
-	display: table;
+	width: 100%;
+
 }
 
-.dropbtn, .dropbtn1, .dropbtn2, .dropbtn3, .dropbtn4 {
+.nav button {
   	background-color: #401424;
   	color: #D8C8B9;
   	text-decoration: none;
@@ -83,11 +84,12 @@ placeholder {
 	border: none;
 	display: block;
 	width: 100%;
-	cursor: pointer;
 }
 
-.dropbtn1, .dropbtn2, .dropbtn3, .dropbtn4 {
-	margin-left: -5px;
+.nav button:after {
+	content: "";
+	clear: both;
+	display: table;
 }
 
 .dropdown, .dropdown1, .dropdown2, .dropdown3, .dropdown4 {
