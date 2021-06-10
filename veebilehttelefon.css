@@ -71,7 +71,7 @@ form.otsing input[type=text] {
   	color: #D8C8B9;
   	text-decoration: none;
 	font-size: 3vw;
-	padding: 3vw 4.5vw;
+	padding: 3.5vw 4.5vw;
 	border: none;
 	width: auto;
 }
@@ -195,8 +195,10 @@ form.otsing input[type=text] {
 	background-color: #D88371;
 	font-size: 3.2vw;
 	line-height: 1.5;
-	padding: 1vw 1.5vw;
+	padding: 1.5vw 1.5vw;
 	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 
