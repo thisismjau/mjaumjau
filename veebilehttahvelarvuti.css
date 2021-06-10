@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
 * {
   box-sizing: border-box;
 }
@@ -224,14 +225,7 @@ form.otsing input[type=text] {
 .kirjuta a:hover {
 	color: #401424;
 }
+}
 
-
-
-/*
-@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
-	body {
-	background-image: url("kohviklaptop.png");
-}}
-*/
 
 
