@@ -101,7 +101,7 @@ form.otsing input[type=text] {
     padding: 3vw 3vw;
     text-decoration: none;
     display: block;
-	font-size: 0.5em;
+	font-size: 1em;
 	text-align: center;
 	line-height: 1.5;
 	width: 100%;
@@ -193,7 +193,7 @@ form.otsing input[type=text] {
 	height: 50vw;
 	width: 50vw;
 	background-color: #D88371;
-	font-size: 4vw;
+	font-size: 3.9vw;
 	line-height: 1.5;
 	padding: 1.5vw 1.5vw;
 	text-align: center;
